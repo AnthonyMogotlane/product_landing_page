@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Landing Page</title>
+  <!-- custorm css -->
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Fontawesome css -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+    crossorigin="anonymous">
+</head>
+<body>
+  <header id="header">
+    <img src="img/logo1.png" alt="logo" id="header-img">
+    <nav id="nav-bar">
+      <ul id="nav-items">
+        <li class="list-item" ><a class="nav-link" href="#tools">Tools</a></li>
+        <li class="list-item"><a class="nav-link" href="#learn">Learn</a></li>
+        <li class="list-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- form -->
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <label for="email">Your ideal website is just a click away</label><br>
+      <input type="email" name="email" id="email" placeholder="enter your email" required><br>
+
+      <input type="submit" name="submit" id="submit" value="Get Started">
+    </form>
+    <hr>
+
+    <!-- tools section -->
+    <div class="tools-header">
+      <h1 style="text-align: center; padding-bottom: 30px;"><i>Tools and Technologies used in Web Development</i></h1>
+    </div>
+    <div class="tools tool-1" id="tools">
+      <div class="icon"><i class="fab fa-html5 fa-4x icon-item" style="color: red;"></i></div>
+      
+      <div class="tools-content" id="html">
+        <h2>Hypertext Markup Language</h2>
+        <p>standard markup language for documents designed to be displayed in a web browser. <a href="https://en.wikipedia.org/wiki/HTML" target="_blank">read more</a></p>
+      </div>
+    </div>
+    <div class="tools">
+      <i class="fab fa-css3-alt fa-4x icon" style="color: blue;"></i>
+
+      <div class="tools-content">
+        <h2>Cascading Style Sheets</h2>
+        <p>style sheet language used for describing the presentation of a document written in a markup language such as HTML. <a href="https://en.wikipedia.org/wiki/CSS" target="_blank">read more</a></p></p>
+      </div>
+    </div>
+    <div class="tools">
+      <i class="fab fa-sass fa-4x icon" style="color: rgb(126, 9, 9);"></i>
+
+      <div class="tools-content">
+        <h2>Syntactically Awesome Style Sheets</h2>
+        <p>preprocessor scripting language that is interpreted or compiled into Cascading Style Sheets. <a href="https://en.wikipedia.org/wiki/Sass_(stylesheet_language)"target="_blank" >read more</a></p></p>
+      </div>
+    </div>
+    <div class="tools">
+      <i class="fab fa-js fa-4x icon" style="color: yellow;"></i>
+
+      <div class="tools-content" id="js">
+        <h2>JavaScript</h2>
+        <p> is a programming language that conforms to the ECMAScript specification. <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">read more</a></p></p>
+      </div>
+    </div>
+    <hr>
+
+    <!-- Learning section -->
+    <div class="learn" id="learn">
+      <h1><i>Build it yourself by following video tutorials</i></h1>
+
+      <div class="video-container">
+        <iframe id="video" src="https://www.youtube.com/embed/ieTHC78giGQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+      </div> 
+    </div>
+    <hr>
+
+    <!-- Pricing section -->
+    <h1 style="text-align: center"><i>Let me help you bring it closer to how you imagen it</i></h1>
+    <div class="pricing" id="pricing">
+      <div class="box box-1">
+        <h2><i class="fas fa-window-maximize fa-2x"></i></h2>
+        <p>WEBSITE WITHOUT HOSTING</p>
+        <p>from <span>$26</span></p>
+      </div>
+      <div class="box box-2">
+        <h2><i class="fas fa-desktop fa-2x"></i></h2>
+        <p>WEBSITE INCLUDING HOSTING</p>
+        <p>from <span>$24</span> once off</p>
+        <p>and <span>$3</span> p.m</p>
+      </div>
+      <div class="box box-3">
+        <h2><i class="fas fa-pen fa-2x"></i></h2>
+        <p>LOGO DESIGN</p>
+        <p>from <span>$7</span></p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+   <div class="footer-items">
+     <ul class="footer-list">
+       <li class="footer-link"><a href="https://www.youtube.com/channel/UCdCWmJgOIl4UYDfhxcm5LVQ" target="_blank">Youtube</a></li>
+       <li class="footer-link"><a href="https://www.linkedin.com/in/anthonymogotlane/">Linkedin</a></li>
+       <li class="footer-link"><a href="https://www.linkedin.com/in/anthonymogotlane/">Contact</a></li>
+     </ul>
+   </div>
+   <div class="footer-text">
+     <p>&copy; AMdeveloper</p>
+   </div>
+  </footer>
+
+
+
+  <script src="js/bundle.js"></script>
+</body>
+</html>
+
